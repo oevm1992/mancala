@@ -14,12 +14,12 @@ const [boardStatus, setBoardStatus] = useState(afterMovement)
   },[])
 
   const startGame = async() => {
-    await axios.get(baseurl+"/mancala/start")
+    await axios.put(baseurl+"/mancala/start")
     .then(response => setBoardStatus(response.data))
   }
 
   const makeMove = async(pitChosen) => {
-    await axios.post(baseurl+"/mancala/move", {
+    await axios.put(baseurl+"/mancala/move", {
       pitChosen: pitChosen
     })
     .then(response => {

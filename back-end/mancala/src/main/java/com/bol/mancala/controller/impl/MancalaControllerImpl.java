@@ -21,14 +21,14 @@ public class MancalaControllerImpl implements MancalaController {
     private MancalaService mancalaService;
 
     @Override
-    @PostMapping(value= "/move", consumes = MediaType.APPLICATION_JSON_VALUE, produces = MediaType.APPLICATION_JSON_VALUE)
+    @PutMapping(value= "/move", consumes = MediaType.APPLICATION_JSON_VALUE, produces = MediaType.APPLICATION_JSON_VALUE)
     public ResponseEntity<AfterMovementDTO> makeMove(@RequestBody MovementDTO movementDTO) throws Exception {
         MancalaUtils.validatePits(MancalaConfig.nextTurnPlayer1,movementDTO.getPitChosen());
         return new ResponseEntity<>(mancalaService.makeMove(movementDTO), HttpStatus.OK);
     }
 
     @Override
-    @GetMapping(value= "/start", produces = MediaType.APPLICATION_JSON_VALUE)
+    @PutMapping(value= "/start", produces = MediaType.APPLICATION_JSON_VALUE)
     public ResponseEntity<AfterMovementDTO> startGame() throws Exception {
         return new ResponseEntity<>(mancalaService.startGame(), HttpStatus.OK);
     }

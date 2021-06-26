@@ -20,7 +20,7 @@ import org.springframework.test.web.servlet.setup.MockMvcBuilders;
 import static org.mockito.Mockito.doNothing;
 import static org.mockito.Mockito.when;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
-import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.post;
+import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.put;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
 
 public class MancalaControllerTest {
@@ -46,7 +46,7 @@ public class MancalaControllerTest {
         movementDTO.setPitChosen(15);
 
         this.mvc.perform(
-                post("/mancala/move")
+                put("/mancala/move")
                         .contentType(MediaType.APPLICATION_JSON_VALUE)
                         .content(mapper.writeValueAsString(movementDTO)))
                 .andExpect(status().is4xxClientError());
@@ -54,7 +54,7 @@ public class MancalaControllerTest {
         movementDTO.setPitChosen(-1);
         
         this.mvc.perform(
-                post("/mancala/move")
+                put("/mancala/move")
                         .contentType(MediaType.APPLICATION_JSON_VALUE)
                         .content(mapper.writeValueAsString(movementDTO)))
                 .andExpect(status().is4xxClientError());
@@ -63,7 +63,7 @@ public class MancalaControllerTest {
         movementDTO.setPitChosen(13);
         
         this.mvc.perform(
-                post("/mancala/move")
+                put("/mancala/move")
                         .contentType(MediaType.APPLICATION_JSON_VALUE)
                         .content(mapper.writeValueAsString(movementDTO)))
                 .andExpect(status().is4xxClientError());
@@ -71,7 +71,7 @@ public class MancalaControllerTest {
         movementDTO.setPitChosen(14);
         
         this.mvc.perform(
-                post("/mancala/move")
+                put("/mancala/move")
                         .contentType(MediaType.APPLICATION_JSON_VALUE)
                         .content(mapper.writeValueAsString(movementDTO)))
                 .andExpect(status().is4xxClientError());
@@ -87,7 +87,7 @@ public class MancalaControllerTest {
         when(mancalaService.makeMove(movementDTO)).thenReturn(AfterMovementDTO.builder().build());
         
         this.mvc.perform(
-                post("/mancala/move")
+                put("/mancala/move")
                         .contentType(MediaType.APPLICATION_JSON_VALUE)
                         .content(mapper.writeValueAsString(movementDTO)))
                 .andExpect(status().is2xxSuccessful());
@@ -99,7 +99,7 @@ public class MancalaControllerTest {
         doNothing().when(mancalaConfig).init();
 
         this.mvc.perform(
-                get("/mancala/start"))
+                put("/mancala/start"))
                 .andExpect(status().is2xxSuccessful());
     }
 
