@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="019c58a8-847b-41f9-9296-00536cf2ba4a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bol/mancala/MancalaApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bol/mancala/MancalaApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bol/mancala/config/MancalaConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bol/mancala/config/MancalaConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bol/mancala/controller/MancalaController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bol/mancala/controller/MancalaController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bol/mancala/controller/impl/MancalaControllerImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bol/mancala/controller/impl/MancalaControllerImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bol/mancala/domain/util/MancalaUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bol/mancala/domain/util/MancalaUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bol/mancala/exception/BadRequestException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bol/mancala/exception/BadRequestException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bol/mancala/exception/IntMancalaBaseException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bol/mancala/exception/IntMancalaBaseException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bol/mancala/exception/IntServiceException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bol/mancala/exception/IntServiceException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bol/mancala/handler/BaseRestExceptionHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bol/mancala/handler/BaseRestExceptionHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bol/mancala/mapper/MancalaMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bol/mancala/mapper/MancalaMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bol/mancala/model/AfterMovementDTO$AfterMovementDTOBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bol/mancala/model/AfterMovementDTO$AfterMovementDTOBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bol/mancala/model/AfterMovementDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bol/mancala/model/AfterMovementDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bol/mancala/model/ApiErrorMessageBody.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bol/mancala/model/ApiErrorMessageBody.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bol/mancala/model/Board.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bol/mancala/model/Board.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bol/mancala/model/MovementDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bol/mancala/model/MovementDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bol/mancala/model/WinnerDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bol/mancala/model/WinnerDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bol/mancala/service/MancalaService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bol/mancala/service/MancalaService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bol/mancala/service/impl/MancalaServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bol/mancala/service/impl/MancalaServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/bol/mancala/MancalaApplicationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/bol/mancala/MancalaApplicationTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/bol/mancala/controller/MancalaControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/bol/mancala/controller/MancalaControllerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/bol/mancala/mapper/MancalaMapperTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/bol/mancala/mapper/MancalaMapperTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/bol/mancala/model/MancalaModelTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/bol/mancala/model/MancalaModelTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/bol/mancala/service/MancalaServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/bol/mancala/service/MancalaServiceTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front-end/mancalaFrontReact/mancala-app/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../front-end/mancalaFrontReact/mancala-app/src/App.css" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1tgeKawxImm1o3aaXIP5H1K3mPJ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="spring.boot" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.bol.mancala.domain.util" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.MancalaApplication">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All in mancala" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mancala" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MancalaServiceTest.testAddStone" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mancala" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bol.mancala.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.bol.mancala.service" />
+      <option name="MAIN_CLASS_NAME" value="com.bol.mancala.service.MancalaServiceTest" />
+      <option name="METHOD_NAME" value="testAddStone" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MancalaServiceTest.testMakeMoveLastPositionEnemySide" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mancala" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bol.mancala.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.bol.mancala.service" />
+      <option name="MAIN_CLASS_NAME" value="com.bol.mancala.service.MancalaServiceTest" />
+      <option name="METHOD_NAME" value="testMakeMoveLastPositionEnemySide" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MancalaServiceTest.testStealStone" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mancala" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bol.mancala.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.bol.mancala.service" />
+      <option name="MAIN_CLASS_NAME" value="com.bol.mancala.service.MancalaServiceTest" />
+      <option name="METHOD_NAME" value="testStealStone" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.bol.mancala in mancala" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mancala" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bol.mancala.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.bol.mancala" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MancalaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="mancala" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.bol.mancala.MancalaApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.All in mancala" />
+        <item itemvalue="JUnit.com.bol.mancala in mancala" />
+        <item itemvalue="JUnit.MancalaServiceTest.testMakeMoveLastPositionEnemySide" />
+        <item itemvalue="JUnit.MancalaServiceTest.testAddStone" />
+        <item itemvalue="JUnit.MancalaServiceTest.testStealStone" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="019c58a8-847b-41f9-9296-00536cf2ba4a" name="Default Changelist" comment="" />
+      <created>1623195099433</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1623195099433</updated>
+      <workItem from="1623195100737" duration="7816000" />
+      <workItem from="1623275801986" duration="15585000" />
+      <workItem from="1623362439189" duration="48378000" />
+      <workItem from="1623448077870" duration="491000" />
+      <workItem from="1623448574786" duration="11542000" />
+      <workItem from="1623516527152" duration="2413000" />
+      <workItem from="1623524502555" duration="3765000" />
+      <workItem from="1623528299006" duration="883000" />
+      <workItem from="1623529250333" duration="28297000" />
+      <workItem from="1623600431187" duration="12041000" />
+      <workItem from="1623706811430" duration="3881000" />
+      <workItem from="1623791367426" duration="2209000" />
+      <workItem from="1623859004446" duration="29000" />
+      <workItem from="1624056395152" duration="975000" />
+      <workItem from="1624285130060" duration="9399000" />
+      <workItem from="1624400631480" duration="4056000" />
+      <workItem from="1624456529965" duration="1165000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/bol/mancala/controller/impl/MancalaControllerImpl.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/mancala$com_bol_mancala_mapper_in_mancala.ic" NAME="com.bol.mancala.mapper in mancala Coverage Results" MODIFIED="1623546019323" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.bol.mancala.mapper.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/mancala$MancalaControllerTest_testMancalaController400BadRequest.ic" NAME="MancalaControllerTest.testMancalaController400BadRequest Coverage Results" MODIFIED="1623555692490" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.bol.mancala.controller.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/mancala$MancalaServiceTest_testMakeMove.ic" NAME="MancalaServiceTest.testMakeMove Coverage Results" MODIFIED="1623545972167" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.bol.mancala.service.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/mancala$MancalaModelTest.ic" NAME="MancalaModelTest Coverage Results" MODIFIED="1623556557754" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.bol.mancala.model.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/mancala$com_bol_mancala_service_in_mancala.ic" NAME="com.bol.mancala.service in mancala Coverage Results" MODIFIED="1623546004865" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.bol.mancala.service.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/mancala$MancalaServiceTest_testStealStone.ic" NAME="MancalaServiceTest.testStealStone Coverage Results" MODIFIED="1623545397115" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.bol.mancala.service.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/mancala$MancalaApplication.ic" NAME="MancalaApplication Coverage Results" MODIFIED="1623632878509" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/mancala$com_bol_mancala_in_mancala.ic" NAME="com.bol.mancala in mancala Coverage Results" MODIFIED="1623633106037" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.bol.mancala.*</FILTER>
+    </SUITE>
+  </component>
+</project>
